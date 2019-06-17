@@ -1,0 +1,43 @@
+name: ZeroSuit
+main: com.crystalcraftmc.zerosuit.ZeroSuit
+version: 1.1.0
+description: Who needed gravity anyways?
+authors: [Jwood9198]
+website: http://crystalcraftmc.com
+
+commands:
+   zerog:
+      description:
+         This 0 argument command will list all areas that are zero-gravity regions
+      usage:
+         /<command>
+   zerog:
+      description:
+         This 2 argument command will remove a specified zero-gravity region
+      usage:
+         /<command><remove><nameID>
+   zerog:
+      description:
+         This 8 argument command will create a zero-gravity region in the world you're in (overworld | nether | end) at the given coordinates
+      usage:
+         /<command><add><x1><y1><z1><x2><y2><z2><nameID>
+   zerogfast:
+      description:
+         Changes your flying speed to fast-ish
+      usage:
+         /<command>
+   zerogslow:
+      description:
+         Changes your flying speed to slow-ish
+      usage:
+         /command>
+   zerogedit:
+      description:
+         Edit either the zerogfast speed, zerogslow speed, or upward velocity on button-press
+      usage:
+         /<command> <_zerogfast_ | _zerogslow_ | _upvelocity_> <decimal or integer value>
+   zeroghelp:
+      description:
+         Lists All ZeroSuit Commands, and zerogedit default values
+      usage:
+         /<command>
