@@ -1,9 +1,9 @@
 name: ZeroSuit
-main: com.crystalcraftmc.zerosuit.ZeroSuit
-version: 1.1.0
+main: ZeroSuit
+version: 1.8.7
 description: Who needed gravity anyways?
-authors: [Jwood9198]
-website: http://crystalcraftmc.com
+authors: [Jwood9198, TheOnlineWorld]
+website: http://SpaceStuffMC.com
 
 commands:
    zerog:
